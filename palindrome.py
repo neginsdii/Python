@@ -11,9 +11,6 @@ def is_palindrome(input_string):
 	while index>=0:
 	  new_string+=reserve_string[index]
 	  index-=1
-		# Add any non-blank letters to the 
-		# end of one string, and to the front
-		# of the other string. 
 	# Compare the strings
 	if new_string == reserve_string:
 		return True
