@@ -18,3 +18,24 @@ print(sentence.index("f"))
 print(sentence.find("for"))
 print(sentence.capitalize())
 print(sentence.title())
+
+print("*"*20)
+name="Manny"
+lucky_number=len(name)*3
+print("Hello {}, Your lucky number is: {}".format(name,lucky_number))
+
+print("Your lucky number is {number}, {name}".format(number=lucky_number, name=name))
+print("*"*20)
+prices=[8,12,22,4,2,45]
+tax=1.09
+for price in prices:
+  print("Base price: ${:0.2f}, With Tax: ${:0.2f}".format(price,price*tax))
+
+  print("_"*20)
+ def to_celsius(x):
+    deg=(x-32)*5/9
+    print("{:>3} F | {:>6.2f} c".format(x,deg))
+
+  degs=[0,10,20,30,40,50,60,70,80,90,100]
+for deg in degs:
+  to_celsius(deg)
