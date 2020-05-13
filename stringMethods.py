@@ -39,3 +39,14 @@ for price in prices:
   degs=[0,10,20,30,40,50,60,70,80,90,100]
 for deg in degs:
   to_celsius(deg)
+
+  print("_"*20)
+def nametag(first_name, last_name):
+	return(first_name+" {}.".format(last_name[0]))
+
+print(nametag("Jane", "Smith")) 
+# Should display "Jane S." 
+print(nametag("Francesco", "Rinaldi")) 
+# Should display "Francesco R." 
+print(nametag("Jean-Luc", "Grand-Pierre")) 
+# Should display "Jean-Luc G." 
