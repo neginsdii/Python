@@ -3,7 +3,7 @@ def skip_elements(elements):
 	new_list = []
 	# Iterate through the list
 	for i in range(len(elements)):
-		# Does this element belong in the resulting list?
+		# Does this element belong in the resulting lis
 		if i%2==0:
 			# Add this element to the resulting list
 			new_list.append(elements[i])
